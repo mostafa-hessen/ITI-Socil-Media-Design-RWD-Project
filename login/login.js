@@ -1,0 +1,1 @@
+let input=Array.from(document.querySelectorAll("input ")),bntSubmit=document.querySelector(".btn2");input.forEach((e=>e.addEventListener("blur",(()=>{console.log(e.classList[1]),""!=e.value?document.querySelector(`.${e.classList[1]}Label`).style.top="-14px":console.log("🤐")}))));
